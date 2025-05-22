@@ -1,11 +1,161 @@
+<!-- Joshua Lawrence Wallace -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Joshua Lawrence Wallace - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Joshua Lawrence Wallace</h1>
+        <p>Mobile App Developer|Web Developer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="profile">
+            <img src="ceo.png" alt="Profile Photo">
+            <div class="profile-text">
+                <h1>About Me</h1>
+                <p>I'm Joshua Lawrence Wallace, a dedicated Software Engineer specializing in Mobile Application Development with over two years of hands-on experience with Flutter. I'm proficient in Flutter, Dart, Java, MySQL, HTML, CSS, JavaScript, and Visual Basic with a strong foundation in technical skills and personal attributes. I am eager to contribute my expertise to innovative projects and continue growing as a professional in the field of Mobile Application Development.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/joshua-lawrence-wallace-7a9b92308" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/joshuawallace25/Joshua-Lawrence-Wallace_21413-2023/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:joshualawrencewallace@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>B.Sc. Software Engineering</h3>
+                    <p>Expected Graduation 2026</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Mobile App Developer</h3>
+                    <p>2+ Years</p>
+                    <p>Developed and maintained mobile applications using Flutter, focusing on performance and user experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>yt_downloader</h3>
+                    <p>A mobile application for downloading YouTube videos efficiently.</p>
+                    <p><strong>Tools:</strong> Flutter, Dart</p>
+                    <p><a href="https://github.com/joshuawallace25/" target="_blank">View on GitHub</a></p>
+                </div>
+                <div class="card">
+                    <h3>NFC Integrated MIS</h3>
+                    <p>A management information system integrated with NFC technology for seamless data transfer.</p>
+                    <p><strong>Tools:</strong> Flutter, Dart, Java</p>
+                    <p><a href="https://github.com/joshuawallace25/" target="_blank">View on GitHub</a></p>
+                </div>
+                <div class="card">
+                    <h3>Daily Task App</h3>
+                    <p>A productivity app for managing daily tasks with reminders and progress tracking.</p>
+                    <p><strong>Tools:</strong> Flutter, Dart</p>
+                    <p><a href="https://github.com/joshuawallace25/" target="_blank">View on GitHub</a></p>
+                </div>
+                <div class="card">
+                    <h3>Diet ChatBot</h3>
+                    <p>An AI-powered chatbot providing personalized diet recommendations.</p>
+                    <p><strong>Tools:</strong> Flutter, Dart, JavaScript</p>
+                    <p><a href="https://github.com/joshuawallace25/" target="_blank">View on GitHub</a></p>
+                </div>
+                <div class="card">
+                    <h3>Bible Go</h3>
+                    <p>A mobile app for accessing Bible verses with offline capabilities.</p>
+                    <p><strong>Tools:</strong> Flutter, Dart, MySQL</p>
+                    <p><a href="https://github.com/joshuawallace25/" target="_blank">View on GitHub</a></p>
+                </div>
+                <div class="card">
+                    <h3>ClipSnatch</h3>
+                    <p>An app for capturing and organizing short video clips.</p>
+                    <p><strong>Tools:</strong> Flutter, Dart</p>
+                    <p><a href="https://github.com/joshuawallace25/" target="_blank">View on GitHub</a></p>
+                </div>
+                <div class="card">
+                    <h3>Online Food Service</h3>
+                    <p>A food delivery app with real-time order tracking and payment integration.</p>
+                    <p><strong>Tools:</strong> Flutter, Dart, JavaScript</p>
+                    <p><a href="https://github.com/joshuawallace25/" target="_blank">View on GitHub</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li>Flutter</li>
+                <li>Dart</li>
+                <li>Java</li>
+                <li>MySQL</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Visual Basic</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Let's get in touch and talk about your next project.</p>
+            <p><i class="fas fa-envelope"></i> joshualawrencewallace@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +250798653557</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <a href="Resume.pdf" class="resume-link">Download Resume</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Joshua Lawrence Wallace. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('nav ul li a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Form submitted! (This is a demo, no backend connected.)');
+            this.reset();
+        });
+    </script>
 </body>
 </html>
